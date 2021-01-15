@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <script>
+        function tinh(){
+            let a = prompt('Nhap a:');
+            let b = prompt('Nhap b:');
+            if (a==0 && b==0){
+                alert('Phuong trinh vo so nghiem');
+            }
+            if (a==0 && b!=0){
+                alert('Phuong trinh vo nghiem')
+            }
+            if (a!=0){
+                let c = -b/a;
+                alert('Ket qua' + c);
+            }
+        }
+            
+    </script>
+<body>
+    <button onclick="tinh()">CLICK</button>
+</body>
+</html>
